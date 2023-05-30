@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container {
+    height: 100vh;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    
+}
+
+.main-container>.navbar a{
+    text-decoration: none;
+    color:  #fff;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 15px;
+    padding: 15px;
+    font-size:25px;
+}
+
+.nav-right{
+    display: flex;
+    gap: 25px;
+}
+
+.main-content {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 3rem;
+    
+}
+
+.userDetails>div {
+    margin-bottom: 3rem;
+    font-size: 35px;
+}
+
+.btn{
+        margin-top: 30px;
+        color: #000;
+        background-color: #fff;
+        width: 9rem;
+        height: 2.5rem;
+
+     }
+
+    .userDetails>.form-status{
+        padding-top: 25px;
+        font-size: 23px;
+     /*    display: none; */
+     }
+    
+
+     @media only screen and (max-width: 968px) {
+        .main-body {
+          display: flex;
+          flex-direction: column;        
+            position: absolute;
+            top: 10%;
+            left:5%;
+            width: 90%;
+            min-width: 450px;
+            /* padding: 2rem; */
+            font-size: 30px;
+    
+      }
+    }
